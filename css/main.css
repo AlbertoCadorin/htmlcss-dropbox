@@ -11,9 +11,9 @@
 body {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
-    font-variation-setting : "wdth" 100;
+    font-variation-setting: "wdth" 100;
   }
 
 ul {
@@ -34,7 +34,7 @@ a {
 }
 
 span{
-    padding-right: 60px;
+    font-size: 17px;
 }
 
 .tasto-blu{
@@ -43,8 +43,15 @@ span{
     color: #fff;
 }
 
+
+
 h1{
     font-size: 90px;
+}
+
+h3{
+    font-size: 25px;
+    padding-bottom: 20px;
 }
 
 /*** header ***/
@@ -90,7 +97,7 @@ div .menu-destra{
 .container{
     margin: 0 auto;
     max-width: 1000px;
-    padding-top: 125px;
+    padding-top: 300px;
 }
 
 
@@ -106,8 +113,7 @@ div .menu-destra{
 }
 .jumbo-nav{
     display: flex;
-     height: 475px;
-     padding-top: 50px; 
+    padding-top: 50px; 
     
 
 }
@@ -127,10 +133,37 @@ div .menu-destra{
     flex-direction: column;
 }
 
-.container-jumbo-p> section{
+.container-jumbo-p> div{
     padding-bottom: 50px;
 }
 
+.box-3{
+    display: flex;  
+}
+
+.img-colleghi{
+    flex-grow: 1;
+}
+.collechi{
+    max-width: 100%;
+}
+
+.testo{
+    width: 350px;
+    flex-shrink: 0;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.tasto-bianco{
+    padding: 10px 20px;
+    border: 2px solid #000;
+}
+
+.pulsante-bianco {
+
+    padding-top: 40px;
+}
 
 /*** section ***/
 
