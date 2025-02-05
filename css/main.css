@@ -21,8 +21,8 @@ ul {
 }
 
 li {
-    padding: 5px 10px;
-    height: 55px;
+    
+   height: 55px;
 }
 
 li:hover{
@@ -39,11 +39,12 @@ span{
 
 .tasto-blu{
     background-color: #0061fe;
-    height: 35px;
+    padding: 10px 20px;
+    color: #fff;
 }
 
-.tasto{
-    color: #fff;
+h1{
+    font-size: 90px;
 }
 
 /*** header ***/
@@ -93,34 +94,46 @@ div .menu-destra{
 }
 
 
-.container-jumbo-t {
-    height: 230px;
-    background-color: blanchedalmond;
-    border: 5px dotted black;
-}
 
 /*** main ***/
 .jumbo{
     margin-right: 5px;
     padding-top: 100px;
-    height: 735px;
+    height: 850px;
     background-color: #b4d0e6;
     box-shadow: 0 1px 3px 0px #777;
+    font-size: 17px;
 }
 .jumbo-nav{
     display: flex;
-    height: 475px;
-    border: 5px dotted black;
+     height: 475px;
+     padding-top: 50px; 
+    
 
 }
 
 .container-jumbo-img{
     flex-grow: 1;
-    background-color: coral;
+}
+
+.container-jumbo-img img{
+    max-width: 100%;
 }
 
 .container-jumbo-p{
     width: 360px;
-    background-color: darkolivegreen;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
 }
 
+.container-jumbo-p> section{
+    padding-bottom: 50px;
+}
+
+
+/*** section ***/
+
+.freccia{
+    font-size: 70px;
+}
