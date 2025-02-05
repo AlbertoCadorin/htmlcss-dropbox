@@ -4,3 +4,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/*** common ***/
+
+
+/*** header ***/
+
+header{
+    padding: 25px;
+    height: 80px;
+    background-color: chocolate;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-nav>div.menu-destra{
+    flex-grow: 3;
+    text-align: end;
+}
+
+/*** container ***/
+.container {
+    margin: 0 auto;
+    max-width: 1380px;  
+}
