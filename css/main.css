@@ -8,30 +8,119 @@
 
 /*** common ***/
 
+body {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-setting : "wdth" 100;
+  }
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px 10px;
+    height: 55px;
+}
+
+li:hover{
+    border-bottom: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+span{
+    padding-right: 60px;
+}
+
+.tasto-blu{
+    background-color: #0061fe;
+    height: 35px;
+}
+
+.tasto{
+    color: #fff;
+}
 
 /*** header ***/
 
 header{
-    padding: 25px;
+    padding: 25px 25px 0 25px;
     height: 80px;
-    background-color: chocolate;
+    background-color: #fff;
 }
 
 .header-nav{
     display: flex;
     justify-content: space-between;
-    border: 2px solid black;
-    align-items: center;
     gap: 20px;
+    height: 55px;
 }
 
-.header-nav>div.menu-destra{
-    flex-grow: 3;
+.header-nav>div.menu-sinistra{
+    flex-grow: 2;
+}
+
+header .menu-destra ul,
+header .menu-sinistra ul {
+    font-size: 18px;
+    gap: 30px;
+}
+
+div .menu-destra{
     text-align: end;
 }
 
 /*** container ***/
-.container {
+.container-alto {
     margin: 0 auto;
     max-width: 1380px;  
 }
+
+
+.menu {
+    display: flex;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-top: 125px;
+}
+
+
+.container-jumbo-t {
+    height: 230px;
+    background-color: blanchedalmond;
+    border: 5px dotted black;
+}
+
+/*** main ***/
+.jumbo{
+    margin-right: 5px;
+    padding-top: 100px;
+    height: 735px;
+    background-color: #b4d0e6;
+    box-shadow: 0 1px 3px 0px #777;
+}
+.jumbo-nav{
+    display: flex;
+    height: 475px;
+    border: 5px dotted black;
+
+}
+
+.container-jumbo-img{
+    flex-grow: 1;
+    background-color: coral;
+}
+
+.container-jumbo-p{
+    width: 360px;
+    background-color: darkolivegreen;
+}
+
