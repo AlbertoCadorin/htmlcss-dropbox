@@ -11,22 +11,10 @@
 body {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-setting: "wdth" 100;
-  }
+}
 
 ul {
     list-style: none;
-}
-
-li {
-    
-   height: 55px;
-}
-
-li:hover{
-    border-bottom: 2px solid black;
 }
 
 a {
@@ -42,11 +30,12 @@ span{
     padding: 10px 20px;
     color: #fff;
 }
-
-
-
+.tasto-blu:hover{
+    filter: brightness(1.4);  
+}
 h1{
     font-size: 90px;
+    padding-bottom: 70px;
 }
 
 h3{
@@ -54,44 +43,38 @@ h3{
     padding-bottom: 20px;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
 /*** header ***/
 
 header{
-    padding: 25px 25px 0 25px;
-    height: 80px;
-    background-color: #fff;
-}
-
-.header-nav{
+    padding: 20px;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    height: 55px;
+    align-items: center;
+    box-shadow: 0 1px 3px 0px #777;
 }
 
-.header-nav>div.menu-sinistra{
-    flex-grow: 2;
+header ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
-header .menu-destra ul,
-header .menu-sinistra ul {
-    font-size: 18px;
-    gap: 30px;
+.logo {
+    border: 0px solid;
 }
 
-div .menu-destra{
-    text-align: end;
+header li:hover{
+    border-bottom: 2px solid black;
 }
 
 /*** container ***/
 .container-alto {
     margin: 0 auto;
     max-width: 1380px;  
-}
-
-
-.menu {
-    display: flex;
 }
 
 .container{
@@ -103,38 +86,37 @@ div .menu-destra{
 
 
 /*** main ***/
-.jumbo{
-    margin-right: 5px;
-    padding-top: 100px;
-    height: 850px;
+
+#jumbo{
     background-color: #b4d0e6;
-    box-shadow: 0 1px 3px 0px #777;
+    margin-bottom: 150px;
     font-size: 17px;
 }
-.jumbo-nav{
-    display: flex;
-    padding-top: 50px; 
-    
 
+#jumbo .jumbo-nav{
+    display: flex;
+}
+#jumbo .container-alto{
+    position: relative;
+    top: 100px;
 }
 
 .container-jumbo-img{
-    flex-grow: 1;
-}
-
-.container-jumbo-img img{
-    max-width: 100%;
+    width: 70%;
 }
 
 .container-jumbo-p{
-    width: 360px;
-    flex-shrink: 0;
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
 
 .container-jumbo-p> div{
     padding-bottom: 50px;
+}
+
+.freccia{
+    font-size: 70px;
 }
 
 .box-3{
@@ -165,8 +147,20 @@ div .menu-destra{
     padding-top: 40px;
 }
 
-/*** section ***/
+/*** footer ***/
 
-.freccia{
-    font-size: 70px;
+.bg-black{
+    background-color: #000;
+    border-left: 2px solid #fff;
+    height: 500px;
 }
+
+.link-info{
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.li-foot{
+    font-size: 18px;
+}
+
