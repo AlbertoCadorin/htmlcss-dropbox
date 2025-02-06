@@ -24,8 +24,7 @@ a {
 
 span{
     font-size: 17px;
-    padding: 5px
-    
+    padding: 5px  
 }
 
 .tasto-blu{
@@ -101,9 +100,6 @@ header li:hover{
     max-width: 1150px;
     padding-top: 150px;
 }
-
-
-
 /*** main ***/
 
 /* jumbo */
@@ -238,9 +234,6 @@ i{
 
 .img-colleghi{
     flex-grow: 1;
-}
-.collechi{
-    max-width: 100%;
 }
 
 .testo{
