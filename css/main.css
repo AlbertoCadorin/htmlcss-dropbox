@@ -166,12 +166,13 @@ header li:hover{
 
 .piani{
     padding-top: 80px;
+    padding-bottom: 35px;
     display: flex;
     gap: 35px
 }
 
 .piani>div.piano {
-    width: calc(100% / 3);
+    width: calc(100%/ 3);
     
 }
 
@@ -213,6 +214,21 @@ i{
     align-items: start;
 }
 
+.quarta{
+    border: 2px solid #777;
+}
+
+.mid{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bott{
+    display: flex;
+    padding: 30px;
+}
 
 /* seconda sezione */
 
@@ -320,5 +336,3 @@ p{
     color: #fff;
     border-top: 2px solid #fff;
 }
-
-
