@@ -24,7 +24,8 @@ a {
 
 span{
     font-size: 17px;
-    padding-right: 50px;
+    padding: 5px
+    
 }
 
 .tasto-blu{
@@ -125,7 +126,7 @@ header li:hover{
 }
 
 .container-jumbo-p> div{
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .freccia{
@@ -146,6 +147,10 @@ header li:hover{
     border-radius: 50%;
 }
 
+.fatt{
+    padding-right: 50px;
+}
+
 .finto-tasto {
     height: 15px;
     display: inline-block;
@@ -154,6 +159,46 @@ header li:hover{
     border-radius: 50%;
 }
 
+.piani{
+    padding-top: 80px;
+    display: flex;
+    gap: 35px
+}
+
+.piani>div.piano {
+    width: calc(100% / 3);
+    
+}
+
+.piano{
+    border: 2px solid #777;
+}
+
+.piano-top {
+    border-bottom: 2px solid #777;
+    text-align: center;
+}
+
+.piano-mid {
+    padding: 30px;
+}
+
+.prezzi{
+    line-height: 2;
+}
+
+.grigio {
+    color: #777;
+}
+
+.lista-icone{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+i{
+    padding-right: 10px;
+}
 
 /* seconda sezione */
 
