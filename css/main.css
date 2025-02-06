@@ -39,6 +39,10 @@ h1{
     padding-bottom: 70px;
 }
 
+h2{
+    font-size: 35px;
+}
+
 h3{
     font-size: 25px;
 }
@@ -55,6 +59,10 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 1px 3px 0px #777;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 header ul{
@@ -84,13 +92,16 @@ header li:hover{
 .container{
     margin: 0 auto;
     max-width: 1000px;
-    padding-top: 300px;
+    padding-top: 150px;
 }
 
 
 
 /*** main ***/
 
+section{
+
+}
 
 /* jumbo */
 
@@ -154,6 +165,17 @@ header li:hover{
     padding-bottom: 40px
 }
 
+/* quarta sezione */
+
+.link-clienti{
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.a-normal{
+    color: #0000ec;
+    text-decoration: underline;
+}
 
 /*** footer ***/
 
