@@ -49,10 +49,15 @@ h3{
     font-size: 25px;
 }
 
+h4{
+    padding-top: 90px;
+}
+
 img {
     display: block;
     width: 100%;
 }
+
 /*** header ***/
 
 header{
@@ -198,6 +203,10 @@ header li:hover{
 
 i{
     padding-right: 10px;
+}
+
+.punti{
+    padding-top: 30px;
 }
 
 /* seconda sezione */
