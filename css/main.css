@@ -19,6 +19,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 span{
@@ -40,7 +41,6 @@ h1{
 
 h3{
     font-size: 25px;
-    padding-bottom: 20px;
 }
 
 img {
@@ -50,7 +50,7 @@ img {
 /*** header ***/
 
 header{
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,6 +65,10 @@ header ul{
 
 .logo {
     border: 0px solid;
+}
+
+header li {
+    height: 50px;
 }
 
 header li:hover{
@@ -87,6 +91,9 @@ header li:hover{
 
 /*** main ***/
 
+
+/* jumbo */
+
 #jumbo{
     background-color: #b4d0e6;
     margin-bottom: 150px;
@@ -107,8 +114,6 @@ header li:hover{
 
 .container-jumbo-p{
     width: 30%;
-    display: flex;
-    flex-direction: column;
 }
 
 .container-jumbo-p> div{
@@ -118,6 +123,8 @@ header li:hover{
 .freccia{
     font-size: 70px;
 }
+
+/* sectino-colleghi */
 
 .box-3{
     display: flex;  
@@ -142,25 +149,51 @@ header li:hover{
     border: 2px solid #000;
 }
 
-.pulsante-bianco {
-
-    padding-top: 40px;
+.testo-colleghi {
+    padding-top: 20px;
+    padding-bottom: 40px
 }
+
 
 /*** footer ***/
 
 .bg-black{
     background-color: #000;
-    border-left: 2px solid #fff;
-    height: 500px;
 }
 
 .link-info{
-    background-color: antiquewhite;
     display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .li-foot{
     font-size: 18px;
+    line-height: 2;
 }
 
+#primo{
+    padding-bottom: 18px;
+}
+
+.foot-1{
+    color: #fff;
+    font-size: 23px;
+}
+
+.foot {
+    color: #fff;
+}
+
+.cambio-lingua{
+    display: flex;
+}   
+
+.cambio-lingua> div{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #fff;
+    border-top: 2px solid #fff;
+}
