@@ -208,6 +208,11 @@ i{
 .punti{
     padding-top: 30px;
 }
+.icone li {
+    display: flex;
+    align-items: start;
+}
+
 
 /* seconda sezione */
 
