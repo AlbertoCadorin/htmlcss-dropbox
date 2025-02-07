@@ -35,10 +35,6 @@ span{
 .tasto-blu:hover{
     filter: brightness(1.4);  
 }
-h1{
-    font-size: 90px;
-    padding-bottom: 70px;
-}
 
 h2{
     font-size: 35px;
@@ -90,6 +86,7 @@ header li:hover{
 }
 
 /*** container ***/
+
 .container-alto {
     margin: 0 auto;
     max-width: 1380px;  
@@ -118,6 +115,11 @@ header li:hover{
     top: 100px;
 }
 
+#jumbo h1{
+    font-size: 90px;
+    margin-bottom: 70px;
+}
+
 .container-jumbo-img{
     width: 70%;
 }
@@ -130,8 +132,8 @@ header li:hover{
     padding-bottom: 40px;
 }
 
-.freccia{
-    font-size: 70px;
+#jumbo .fa-arrow-down{
+    font-size: 50px;
 }
 
 /* prima sezione */
